@@ -14,7 +14,7 @@ public class ClientHandler implements Runnable{
     public ClientHandler(Socket clientSocket, int number, Server server) {
         this.clientSocket = clientSocket;
         this.server = server;
-        name = "Client " + number + ": ";
+        name = "ChatClient-" + number + ": ";
         try {
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             out = new PrintWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
@@ -32,6 +32,7 @@ public class ClientHandler implements Runnable{
                 if (message.equals(null)) {
                     in.close();
                     clientSocket.close();
+                    continue;
                 }
                 if (message.split(" ")[0].contains("/quit")){break;}
                 if (message.split(" ")[0].contains("/alias")){ name = message.substring(message.indexOf(" ") + 1) + " : "; continue;}
