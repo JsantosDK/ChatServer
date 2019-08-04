@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aabd33a-a308-4b47-bd88-7da1530e1b1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chatserver/org/academiadecodigo/bootcamp/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chatserver/org/academiadecodigo/bootcamp/ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chatserver/org/academiadecodigo/bootcamp/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chatserver/org/academiadecodigo/bootcamp/ServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chatwithcommands/org/academiadecodigo/bootcamp/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loginprompt/src/org/academiadecodigo/bootcamp/LoginPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loginprompt/src/org/academiadecodigo/bootcamp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loginprompt/src/org/academiadecodigo/bootcamp/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loginprompt/src/org/academiadecodigo/bootcamp/UserStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loudboy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-chat/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webserver/src/org/academiadecodigo/bootcamp/testRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatwithcommands.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chatwithcommands/META-INF/chatwithcommands.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chatserver/META-INF/chatserver.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chatwithcommands/org/academiadecodigo/bootcamp/ChatClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/chatwithcommands/org/academiadecodigo/bootcamp/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chatwithcommands/org/academiadecodigo/bootcamp/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chatwithcommands/org/academiadecodigo/bootcamp/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chatwithcommands/org/academiadecodigo/bootcamp/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ServerHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,13 +39,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ChatClient.java">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-157">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -37,25 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -77,15 +82,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Main.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientMaker.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Server.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ChatClient.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Client.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ChatClient.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Server.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="53" />
     <option name="y" value="27" />
     <option name="width" value="671" />
@@ -103,17 +108,22 @@
         <subPane>
           <expand>
             <path>
-              <item name="chatwithcommands" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatwithcommands" type="462c0819:PsiDirectoryNode" />
+              <item name="chatserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="chatwithcommands" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatwithcommands" type="462c0819:PsiDirectoryNode" />
+              <item name="chatserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatserver" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="chatwithcommands" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatwithcommands" type="462c0819:PsiDirectoryNode" />
+              <item name="chatserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -144,10 +154,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChatClient">
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.bootcamp.ChatClient" />
-      <module name="chatwithcommands" />
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.bootcamp.Client" />
+      <module name="chatserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.academiadecodigo.bootcamp.*" />
@@ -160,7 +170,7 @@
     </configuration>
     <configuration name="ClientMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.bootcamp.ClientMaker" />
-      <module name="chatwithcommands" />
+      <module name="chatserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.academiadecodigo.bootcamp.*" />
@@ -173,7 +183,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.bootcamp.Main" />
-      <module name="chatwithcommands" />
+      <module name="chatserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.academiadecodigo.bootcamp.*" />
@@ -186,7 +196,7 @@
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.bootcamp.Server" />
-      <module name="chatwithcommands" />
+      <module name="chatserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.academiadecodigo.bootcamp.*" />
@@ -199,7 +209,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.ClientMaker" />
         <item itemvalue="Application.Main" />
@@ -218,16 +228,21 @@
       <updated>1561815184785</updated>
       <workItem from="1561815186841" duration="14757000" />
       <workItem from="1561839126013" duration="3155000" />
+      <workItem from="1561969258260" duration="609000" />
+      <workItem from="1564929680191" duration="12000" />
+      <workItem from="1564929917841" duration="70000" />
+      <workItem from="1564930040523" duration="31000" />
+      <workItem from="1564930126068" duration="99000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17912000" />
+    <option name="totallyTimeSpent" value="18733000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="27" width="671" height="741" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="978" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2768" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07507987" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -235,8 +250,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33006537" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32731378" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,7 +261,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32731378" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,16 +311,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ServerHandler.java</url>
+          <line>23</line>
           <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -313,52 +322,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientMaker.java" />
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Main.java" />
-    <entry file="jar:///usr/lib/jvm/java-12-oracle/lib/src.zip!/java.base/java/net/Socket.java">
+    <entry file="jar:///usr/lib/jvm/java-12-oracle/lib/src.zip!/java.base/java/net/Socket.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="943" column="18" selection-start-line="943" selection-start-column="18" selection-end-line="943" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
         </state>
       </provider>
     </entry>

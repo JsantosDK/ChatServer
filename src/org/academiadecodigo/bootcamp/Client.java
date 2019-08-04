@@ -4,16 +4,16 @@ import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class ChatClient {
+public class Client {
 
     private Socket socket;
 
     public static void main(String[] args) {
 
-        ChatClient chatClient = new ChatClient();
+        Client client = new Client();
     }
 
-    public ChatClient() {
+    public Client() {
         try {
             socket = new Socket("localhost", 8181);
             start();
@@ -27,12 +27,11 @@ public class ChatClient {
     public void start(){
         Thread thread = new Thread(new ServerHandler(socket));
         thread.start();
-        System.out.println("here");
         try {
 
             BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
             BufferedWriter output = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-            String consoleInput = null;
+            String consoleInput;
 
             while (socket.isConnected()) {
 
@@ -59,7 +58,4 @@ public class ChatClient {
             e.printStackTrace();}
     }
 
-    public void serverReceiver(){
-
-    }
 }

@@ -36,5 +36,11 @@ public class ServerHandler implements Runnable{
             e.printStackTrace();
         }
 
+
+        try {
+            socket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
